@@ -38,3 +38,30 @@
 #page-map aside footer strong {
   font-weight: 800;
 }
+
+#page-map .leaflet-container {
+  z-index: 5;
+}
+
+#page-map .create-orphanage {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+
+  z-index: 10;
+
+  width: 64px;
+  height: 64px;
+  background: #15c3d6;
+  border-radius: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+#page-map .create-orphanage:hover {
+  background: #17d6eb;
+}
